@@ -1,0 +1,27 @@
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.iml
+.idea/
+.vscode/
+
+# Android
+android/local.properties
+android/key.properties
+android/**/gradle-wrapper.jar
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/xcshareddata/
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
