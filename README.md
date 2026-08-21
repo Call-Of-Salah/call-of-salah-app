@@ -4,8 +4,10 @@ The Flutter mobile app for Call of Salah.
 
 ## Stack
 
-- Flutter
-- Firebase (auth + push notifications)
+- Flutter (Dart) — one codebase for iOS and Android, plus NFC and local UI state
+- Supabase Auth — passwordless phone OTP sign-in
+- Firebase Cloud Messaging — push notifications
+- Talks to [call-of-salah-server](https://github.com/Call-Of-Salah/call-of-salah-server) over REST (`/v1`)
 
 ## Getting started
 
