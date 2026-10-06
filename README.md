@@ -1,29 +1,17 @@
-# Call of Salah — App
+# callofsalah
 
-The Flutter mobile app for Call of Salah.
+A new Flutter project.
 
-## Stack
+## Getting Started
 
-- Flutter (Dart) — one codebase for iOS and Android, plus NFC and local UI state
-- Supabase Auth — passwordless phone OTP sign-in
-- Firebase Cloud Messaging — push notifications
-- Talks to [call-of-salah-server](https://github.com/Call-Of-Salah/call-of-salah-server) over REST (`/v1`)
+This project is a starting point for a Flutter application.
 
-## Getting started
+A few resources to get you started if this is your first Flutter project:
 
-```bash
-flutter pub get
-flutter run
-```
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-Copy `.env.example` to `.env` (once one exists) and fill in the required values before running.
-
-## Contributing
-
-- Branch off `main`, open a pull request — direct pushes to `main` are blocked.
-- PRs require at least 1 approval before merging.
-- Keep your branch up to date by rebasing onto `main`, not merging `main` into your branch.
-
-## License
-
-MIT — see [LICENSE](./LICENSE).
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
